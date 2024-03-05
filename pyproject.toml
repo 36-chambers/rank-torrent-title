@@ -9,9 +9,9 @@ readme = "README.md"
 python = "^3.11"
 parse-torrent-name = "^1.1.1"
 pydantic = "^2.6.3"
-package {
-  include = ["rtn"]
-}
+packages = [
+    { include = "rtn" }
+]
 
 
 [tool.poetry.group.dev.dependencies]
