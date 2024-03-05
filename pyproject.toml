@@ -4,14 +4,14 @@ version = "0.1.0"
 description = "parse-torrent-title, but with ranks"
 authors = ["Eru Iluvatar <eruiluvatar@pnbx.xyz>"]
 readme = "README.md"
+packages = [
+    { include = "rtn" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 parse-torrent-name = "^1.1.1"
 pydantic = "^2.6.3"
-packages = [
-    { include = "rtn" }
-]
 
 
 [tool.poetry.group.dev.dependencies]
