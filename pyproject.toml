@@ -1,12 +1,9 @@
 [tool.poetry]
-name = "rank-torrent-title"
+name = "RTN"
 version = "0.1.0"
 description = "parse-torrent-title, but with ranks"
 authors = ["Eru Iluvatar <eruiluvatar@pnbx.xyz>"]
 readme = "README.md"
-packages = [
-    { include = "rank-torrent-title" }
-]
 
 [tool.poetry.dependencies]
 python = "^3.11"
